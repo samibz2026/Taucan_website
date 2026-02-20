@@ -25,22 +25,22 @@ export default function Clients() {
     },
   };
 
-  const cardVariants = {
-    hidden: {
-      opacity: 0,
-      y: 60,
-      scale: 0.9,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.7,
-        ease: [0.22, 1, 0.36, 1], // smooth cubic-bezier
-      },
-    },
-  };
+  // const cardVariants = {
+  //   hidden: {
+  //     opacity: 0,
+  //     y: 60,
+  //     scale: 0.9,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     scale: 1,
+  //     transition: {
+  //       duration: 0.7,
+  //       ease: [0.22, 1, 0.36, 1], // smooth cubic-bezier
+  //     },
+  //   },
+  // };
 
   return (
     <section
@@ -68,7 +68,7 @@ export default function Clients() {
           {clients.map((client, index) => (
             <motion.div
               key={index}
-              variants={cardVariants}
+              // variants={cardVariants}
               className="bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
               <div className="flex justify-center items-center h-20 mb-4">

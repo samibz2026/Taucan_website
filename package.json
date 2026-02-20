@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module", 
-  "homepage": "https://samibz2026.github.io/Taucan_website",
+  "homepage": "https://samibz2026.github.io/Taucan_website", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
