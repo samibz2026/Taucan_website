@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logoClass img {
+    width: 120px;
+}
+nav button {
+    margin: 0 9px !important;
+}
+.fooLogo img {
+    width: 150px;
+}
+
+.flex.fooLogo.items-center.space-x-3.mb-6 {
+    flex-direction: column;
+    align-items: baseline;
+}
