@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Facebook, Linkedin } from 'lucide-react';
+import logo from '../assets/Logo.png'
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -16,7 +17,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex fooLogo items-center space-x-3 mb-6">
-              <img src="/Logo.png" alt="Toucan Elecinfra" className="object-contain" />
+              <img src={logo} alt="Toucan Elecinfra" className="object-contain" />
               <span className="text-x3 font-bold text-yellow-500">
                 Toucan Elecinfra Pvt Ltd
               </span>
