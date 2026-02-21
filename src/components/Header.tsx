@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/Logo.png'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +42,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex logoClass items-center space-x-3">
-            <img src="/Logo.png" alt="Toucan Elecinfra" className="w-12 h-13 object-contain" />
+            <img src={logo} alt="Toucan Elecinfra" className="w-12 h-13 object-contain" />
             <span className="text-xl sm:text-2xl font-bold text-yellow-500 tracking-wide">
               Toucan Elecinfra Pvt Ltd
             </span>

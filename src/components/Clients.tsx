@@ -9,11 +9,11 @@ export default function Clients() {
   });
 
   const clients = [
-    { name: 'Vikram Solar', logo: '/logos/vikram.jpg' },
-    { name: 'Prozeal Green Energy', logo: '/logos/Prozeal.jpeg' },
-    { name: 'Susten By Mahindra', logo: '/logos/susten.jpg' },
-    { name: 'Hinduja Renewables', logo: '/logos/Hinduja.jpg' },
-    { name: 'Aditya Birla Renewables', logo: '/logos/ADITYA.jpg' },
+    { name: 'Vikram Solar', logo: './logos/vikram.jpg' },
+    { name: 'Prozeal Green Energy', logo: './logos/Prozeal.jpeg' },
+    { name: 'Susten By Mahindra', logo: './logos/susten.jpg' },
+    { name: 'Hinduja Renewables', logo: './logos/Hinduja.jpg' },
+    { name: 'Aditya Birla Renewables', logo: './logos/ADITYA.jpg' },
   ];
 
   const containerVariants = {
