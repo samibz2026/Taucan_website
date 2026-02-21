@@ -1,3 +1,5 @@
+import org from '../assets/Organisation.png'
+
 export default function organization() {
   return (
     <section id="organization" className="pt-20 bg-gray-50">
@@ -11,7 +13,7 @@ export default function organization() {
 
         <div className="bg-white rounded-lg overflow-auto">
           <img
-            src="/Organisation.png"
+            src={org}
             alt="Organization Structure"
             className="w-full h-auto object-contain rounded-lg"
           />
