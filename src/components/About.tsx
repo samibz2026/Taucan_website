@@ -1,5 +1,5 @@
 import { CheckCircle } from 'lucide-react';
-import aboutImage from "../assets/about_us.jpg";
+import aboutImage from "../assets/about_us.png";
 
 export default function About() {
   return (
